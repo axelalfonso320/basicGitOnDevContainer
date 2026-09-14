@@ -141,7 +141,7 @@ git commit
 
 - [X] Creé la rama `mejora-instrucciones`.  "andamos realizando pruebas"
 - [X] Creé un commit dentro de esa rama.
-- [ ] Regresé a `main` y combiné la rama con `git merge`.
+- [X] Regresé a `main` y combiné la rama con `git merge`.
 
 ## 6. Compartir y recibir cambios
 
@@ -168,9 +168,9 @@ Antes de usar `push` o `pull`, confirma que tienes permiso de acceso y que sabes
 
 **Actividad:** no ejecutes `push` sobre un repositorio ajeno sin autorización. Si tienes un remoto de práctica, publica tu rama; después ejecuta `git pull` y registra si había cambios nuevos. Si no tienes permisos, muestra la salida de `git remote -v` y explica por qué no puedes publicar.
 
-- [ ] Revisé el remoto y las ramas disponibles.
-- [ ] Intenté o realicé un `push` con autorización.
-- [ ] Ejecuté `git pull` y comprendí su resultado.
+- [X] Revisé el remoto y las ramas disponibles.
+- [X] Intenté o realicé un `push` con autorización.
+- [X] Ejecuté `git pull` y comprendí su resultado.
 
 ## 7. Generar un archivo de parche
 
@@ -194,8 +194,8 @@ git diff > cambios-sin-commit.patch
 
 **Actividad:** genera `cambio.patch` a partir de dos commits y ábrelo como texto. Identifica las líneas que comienzan con `+` y `-` y explica qué representan.
 
-- [ ] Generé un archivo `.patch` con `git diff`.
-- [ ] Inspeccioné el parche y expliqué sus diferencias.
+- [X] Generé un archivo `.patch` con `git diff`.     
+- [X] Inspeccioné el parche y expliqué sus diferencias.
 
 Los archivos `.patch` de este ejercicio también están excluidos por `.gitignore`, porque son productos temporales de práctica. Si necesitas entregarlo, agrégalo explícitamente con `git add -f nombre.patch`.
 
