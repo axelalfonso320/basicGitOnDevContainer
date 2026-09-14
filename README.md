@@ -110,8 +110,8 @@ git log --oneline -1
 **Actividad:** después del primer commit, cambia una línea del README, ejecuta `git diff`, prepara el cambio y usa `git commit --amend --no-edit`. Comprueba que el último commit contiene la modificación.
 
 - [X] Creé el primer commit con un mensaje descriptivo.    "estamos modificando el archivo inicial"
-- [ ] Revisé un cambio con `git diff` antes de prepararlo.
-- [ ] Incorporé el cambio al commit anterior con `git commit --amend`.
+- [X] Revisé un cambio con `git diff` antes de prepararlo.
+- [X] Incorporé el cambio al commit anterior con `git commit --amend`.
 
 ## 5. Crear una rama y combinarla con `merge`
 
@@ -139,7 +139,7 @@ git commit
 
 **Actividad:** en `mejora-instrucciones`, agrega una aclaración breve al README. Después integra la rama en `main` y comprueba el historial con `git log --oneline --all --decorate`.
 
-- [ ] Creé la rama `mejora-instrucciones`.
+- [ ] Creé la rama `mejora-instrucciones`.  "andamos realizando pruebas"
 - [ ] Creé un commit dentro de esa rama.
 - [ ] Regresé a `main` y combiné la rama con `git merge`.
 
