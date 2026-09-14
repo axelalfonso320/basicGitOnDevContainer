@@ -139,8 +139,8 @@ git commit
 
 **Actividad:** en `mejora-instrucciones`, agrega una aclaración breve al README. Después integra la rama en `main` y comprueba el historial con `git log --oneline --all --decorate`.
 
-- [ ] Creé la rama `mejora-instrucciones`.  "andamos realizando pruebas"
-- [ ] Creé un commit dentro de esa rama.
+- [X] Creé la rama `mejora-instrucciones`.  "andamos realizando pruebas"
+- [X] Creé un commit dentro de esa rama.
 - [ ] Regresé a `main` y combiné la rama con `git merge`.
 
 ## 6. Compartir y recibir cambios
